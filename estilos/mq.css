@@ -1,7 +1,11 @@
 @charset "UFT-8";
 @media screen and (min-width:760px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top,#49a09d, #5f2c82 );
+        height: 100%;
+        background-image: url(../img/coffe-760w.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left bottom;
     }
     #login {
         width: 83vw;
@@ -12,23 +16,30 @@
         height: 100%;
         border-top-right-radius: 0;
         border-bottom-left-radius: 20px;
-    
     }
     
     #formulario {
         float: right;
         width: 70%;
-    
     }
-    
+    #formulario p {
+    font-size: 1.1em;
+    }
 }
+
 @media screen and (min-width: 993px)  {
     body {
-        background-image: linear-gradient(to top,#49a09d, #5f2c82 );
+        background-image:url(../img/coffe.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left bottom;
+        background-attachment: fixed;
     }
+
     #login {
        width: 80vw;
     }
+
     #imagem{
         background-position: left bottom;
         float: right;
@@ -41,7 +52,9 @@
     #formulario {
         float: left;
         width: 60%;
-
+    }
+       #formulario p {
+        font-size: 1.2em;
     }
 }
 
