@@ -32,7 +32,7 @@ h1 {
     background-color: white;
     position: absolute;
     width: 250px;
-    height: 500px;
+    height: 520px;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
@@ -58,9 +58,88 @@ h1 {
 #formulario p {
     font-size: 0.9em;
 }
+
 footer {
     text-align: center;
     color: white;
     padding: 10px;
 }
 
+.enter-data {
+    margin-top: 12px;
+    font-weight: 600;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    border: 0px ;
+    border-radius: 7px;
+    
+}
+.enter-data:hover {
+    transition: 0.2s;
+    background-color:rgb(58, 55, 55);
+    cursor: pointer;
+}
+
+.butao {
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    height: 37px;
+    border-radius: 7px;
+    font-weight: 600;
+    padding-top: 5px;
+    margin-top: 6px;
+}
+.butao:hover {
+    background-color: rgb(205, 186, 0);
+    transition: 0.2s;
+}
+.butao > span {
+   font-size: 0.9em;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px ;
+    background-color: rgb(71, 39, 122);
+    border-radius: 6px;
+    margin: 5px 0px;
+}
+
+.main-question {
+    background-color: rgb(84, 187, 187);
+    border: 2px solid #5f2c82;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+    font-size: 1em;
+    width: calc(100% - 16px);
+}
+.main-question:focus-within {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: 600;
+    }
+
+.campo>span {
+    font-size: 2em;
+    width: 37px;
+    color: white;
+    padding: 4px;
+}
+
+
+label  {
+    display: none;
+}
